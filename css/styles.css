@@ -1,0 +1,463 @@
+body {
+    background-color: #F5F3F3; }
+  
+  /* NAVBAR */
+  .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    letter-spacing: 0.0625em;
+    transition: all 300ms;
+    color: #ffc800 !important; }
+  
+  .nav-item {
+    margin-right: 50px; }
+    .nav-item:nth-child(5) {
+      margin-right: 0px !important; }
+  
+  .fa-shopping-cart {
+    font-size: 25px; }
+  
+  .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 550;
+    transition: all 500ms !important; }
+    .nav-link:hover {
+      color: #ffc800 !important; }
+  
+  .noti-cont {
+    position: absolute;
+    background: red;
+    font-family: helvetica;
+    border-radius: 500px;
+    font-size: 12px;
+    width: 21px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    margin-top: -9px;
+    margin-left: -10px; }
+    .noti-cont span {
+      margin-right: -1px;
+      font-weight: bold; }
+  
+  /* BANNER PRINCIPAL */
+  .banner-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bannerTest-01.jpg);
+    background-size: cover;
+    max-height: 900px;
+    background-position: center; }
+  
+  .fixed-top {
+    transition: all 300ms; }
+  
+  #subtitulo {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    margin-bottom: 30px;
+    letter-spacing: 2px; }
+  
+  #titulo {
+    font-size: 4.5rem !important;
+    font-weight: 900 !important;
+    line-height: 4.5rem !important;
+    margin-bottom: 4rem !important;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px; }
+  
+  .btn-lg {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 900; }
+  
+  /* FOOTER */
+  .footer {
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif; }
+  
+  .py-4 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important; }
+  
+  footer {
+    display: block; }
+  
+  .btn-social {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 100%;
+    transition: all 600ms; }
+    .btn-social:hover {
+      background-color: white;
+      color: black;
+      border: hidden; }
+  
+  .mx-2 {
+    margin-right: 0.5rem !important;
+    margin-left: 0.5rem !important; }
+  
+  /* MAIN CONTAINER */
+  #productos-container h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px; }
+  
+  #card-container {
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    justify-content: center;
+    align-items: center; }
+  
+  .card {
+    margin-left: 16.5%;
+    text-align: center;
+    cursor: pointer;
+    transition: all 400ms; }
+    .card:hover {
+      box-shadow: 2px 2px 6px 0px rgb(0 0 0 / 30%); }
+  
+  .btn {
+    font-family: 'Roboto', sans-serif !important;
+    letter-spacing: 1px; }
+  
+  .btn-warning {
+    font-weight: 900;
+    color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    transition: all 500ms; }
+    .btn-warning:hover {
+      color: #ffc107;
+      background-color: black;
+      border-color: black; }
+  
+  /* BARRA SEARCH */
+  .main-barra {
+    margin: 0px auto;
+    text-align: center; }
+    .main-barra h2 {
+      font-family: "Roboto", sans-serif; }
+  
+  #buscador {
+    height: 40px;
+    width: 300px;
+    margin-bottom: 10px;
+    text-indent: 10px; }
+  
+  /* MODAL CARRITO */
+  .modal-open {
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-right: 0 !important; }
+  
+  .swal2-height-auto {
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-right: 0 !important; }
+  
+  .u-full-width {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center; }
+  
+  tr, td {
+    text-align: center; }
+  
+  #costo {
+    text-align: right;
+    font-weight: bold;
+    font-size: large; }
+  
+  .fa-minus {
+    margin-left: 2%;
+    transition: all 300ms;
+    cursor: pointer;
+    background-color: blue;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold; }
+    .fa-minus:hover {
+      color: black; }
+  
+  .fa-plus {
+    margin-left: 2%;
+    transition: all 300ms;
+    cursor: pointer;
+    background-color: green;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold; }
+    .fa-plus:hover {
+      color: black; }
+  
+  .fa-trash {
+    margin-left: 2%;
+    transition: all 300ms;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold; }
+    .fa-trash:hover {
+      color: black; }
+  
+  /* SweetAlert al Finalizar la Compra */
+  .swal2-popup {
+    font-family: 'Montserrat', sans-serif !important; }
+  
+  .swal2-styled.swal2-confirm {
+    color: #000 !important;
+    background-color: #ffc107 !important;
+    border-color: #ffc107 !important;
+    font-weight: 900; }
+  
+  /* Animacion btnCarrito */
+  @keyframes ani_cta_buzz {
+    1% {
+      transform: translateX(3px) rotate(2deg);
+      -webkit-transform: translateX(3px) rotate(2deg);
+      -moz-transform: translateX(3px) rotate(2deg);
+      -ms-transform: translateX(3px) rotate(2deg);
+      -o-transform: translateX(3px) rotate(2deg); }
+    2% {
+      transform: translateX(-3px) rotate(-2deg);
+      -webkit-transform: translateX(-3px) rotate(-2deg);
+      -moz-transform: translateX(-3px) rotate(-2deg);
+      -ms-transform: translateX(-3px) rotate(-2deg);
+      -o-transform: translateX(-3px) rotate(-2deg); }
+    3% {
+      transform: translateX(3px) rotate(2deg);
+      -webkit-transform: translateX(3px) rotate(2deg);
+      -moz-transform: translateX(3px) rotate(2deg);
+      -ms-transform: translateX(3px) rotate(2deg);
+      -o-transform: translateX(3px) rotate(2deg); }
+    4% {
+      transform: translateX(-3px) rotate(-2deg);
+      -webkit-transform: translateX(-3px) rotate(-2deg);
+      -moz-transform: translateX(-3px) rotate(-2deg);
+      -ms-transform: translateX(-3px) rotate(-2deg);
+      -o-transform: translateX(-3px) rotate(-2deg); }
+    5% {
+      transform: translateX(2px) rotate(1deg);
+      -webkit-transform: translateX(2px) rotate(1deg);
+      -moz-transform: translateX(2px) rotate(1deg);
+      -ms-transform: translateX(2px) rotate(1deg);
+      -o-transform: translateX(2px) rotate(1deg); }
+    6% {
+      transform: translateX(-2px) rotate(-1deg);
+      -webkit-transform: translateX(-2px) rotate(-1deg);
+      -moz-transform: translateX(-2px) rotate(-1deg);
+      -ms-transform: translateX(-2px) rotate(-1deg);
+      -o-transform: translateX(-2px) rotate(-1deg); }
+    7% {
+      transform: translateX(2px) rotate(1deg);
+      -webkit-transform: translateX(2px) rotate(1deg);
+      -moz-transform: translateX(2px) rotate(1deg);
+      -ms-transform: translateX(2px) rotate(1deg);
+      -o-transform: translateX(2px) rotate(1deg); }
+    8% {
+      transform: translateX(-2px) rotate(-1deg);
+      -webkit-transform: translateX(-2px) rotate(-1deg);
+      -moz-transform: translateX(-2px) rotate(-1deg);
+      -ms-transform: translateX(-2px) rotate(-1deg);
+      -o-transform: translateX(-2px) rotate(-1deg); }
+    9% {
+      transform: translateX(1px) rotate(0);
+      -webkit-transform: translateX(1px) rotate(0);
+      -moz-transform: translateX(1px) rotate(0);
+      -ms-transform: translateX(1px) rotate(0);
+      -o-transform: translateX(1px) rotate(0); }
+    10% {
+      transform: translateX(-1px) rotate(0);
+      -webkit-transform: translateX(-1px) rotate(0);
+      -moz-transform: translateX(-1px) rotate(0);
+      -ms-transform: translateX(-1px) rotate(0);
+      -o-transform: translateX(-1px) rotate(0); }
+    100% {
+      transform: translateX(-1px) rotate(0);
+      -webkit-transform: translateX(-1px) rotate(0);
+      -moz-transform: translateX(-1px) rotate(0);
+      -ms-transform: translateX(-1px) rotate(0);
+      -o-transform: translateX(-1px) rotate(0); } }
+  
+  .ani_cta_buzz {
+    animation: ani_cta_buzz 7s linear;
+    -webkit-animation: ani_cta_buzz 7s linear;
+    -moz-animation: ani_cta_buzz 7s linear;
+    -ms-animation: ani_cta_buzz 7s linear;
+    -o-animation: ani_cta_buzz 7s linear; }
+  
+  /* NOSOTROS */
+  .main__container {
+    width: 75%;
+    margin: 0px auto; }
+    .main__container h1 {
+      text-align: center;
+      margin-top: 10px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      margin-bottom: 20px; }
+  
+  .scard1, .scard2 {
+    width: 80%;
+    height: 260px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    display: grid;
+    justify-items: start;
+    grid-template-areas: "foto e1 texto e2";
+    grid-template-columns: 25% 5% 65% 5%;
+    align-items: center; }
+  
+  .scard1__img {
+    grid-area: foto; }
+  
+  .scard1__info {
+    grid-area: texto;
+    color: black; }
+  
+  .scard1__nombre, .scard2__nombre {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 0; }
+  
+  .scard1__cargo, .scard2__cargo {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: black; }
+  
+  .scard1__descripcion, .scard2__descripcion {
+    text-align: start;
+    color: #333; }
+  
+  .scard2 {
+    justify-items: end;
+    grid-template-areas: "e1 texto e2 foto";
+    grid-template-columns: 5% 65% 5% 25%; }
+  
+  .scard2__img {
+    grid-area: foto; }
+  
+  .scard2__info {
+    grid-area: texto;
+    color: black; }
+  
+  .scard2__nombre {
+    text-align: end; }
+  
+  .scard2__cargo {
+    text-align: end; }
+  
+  .scard2__descripcion {
+    text-align: end; }
+  
+  .scardBetween {
+    height: 20px; }
+  
+  /* Boton para ir arriba */
+  #btnUp {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: grey;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 300ms; }
+    #btnUp:hover {
+      background-color: transparent;
+      color: black;
+      transition: all 300ms; }
+  
+  /* Media Queries */
+  @media only screen and (max-width: 1638px) {
+    .scard1, .scard2 {
+      width: 100%; } }
+  
+  @media only screen and (max-width: 1399px) {
+    .card {
+      margin-left: 9%; } }
+  
+  @media only screen and (max-width: 1199px) {
+    .nav-item {
+      margin-right: 21px; }
+      .nav-item:nth-child(5) {
+        margin-right: 0px !important; }
+    .card {
+      margin-left: 3%; } }
+  
+  @media only screen and (max-width: 1133px) {
+    .scard1, .scard2 {
+      width: 80%;
+      height: auto;
+      justify-items: center;
+      align-items: center;
+      grid-template-areas: "e1 foto e2"
+   "e1 texto e2";
+      grid-template-columns: 5% 90% 5%; }
+    .scard1__img {
+      margin: 0px auto;
+      margin-bottom: 15px; }
+    .scard1__nombre, .scard2__nombre {
+      text-align: center; }
+    .scard1__cargo, .scard2__cargo {
+      text-align: center; }
+    .scard1__descripcion, .scard2__descripcion {
+      text-align: center; }
+    .scard2__img {
+      margin-bottom: 15px; }
+    .scard2__nombre {
+      text-align: center; }
+    .scard2__cargo {
+      text-align: center; }
+    .scard2__descripcion {
+      text-align: center; } }
+  
+  @media only screen and (max-width: 991px) {
+    #saludo {
+      margin-top: 20%; }
+    #card-container {
+      grid-template-columns: 50% 50%; }
+    .card {
+      margin-left: 6.5%; } }
+  
+  @media only screen and (max-width: 767px) {
+    #card-container {
+      grid-template-columns: 100%; }
+    .card {
+      margin-left: 20%; } }
+  
+  @media only screen and (max-width: 575px) {
+    .card {
+      margin-left: 21.5%; } }
+  
+  @media only screen and (max-width: 513px) {
+    .card {
+      margin-left: 19.5%; } }
+  
+  @media only screen and (max-width: 469px) {
+    .card {
+      margin-left: 16%; } }
+  
